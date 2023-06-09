@@ -118,7 +118,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--num_classes', type=int, default=17)
     parser.add_argument('--epochs', type=int, default=50)
-    parser.add_argument('--batch-size', type=int, default=8)
+    parser.add_argument('--batch-size', type=int, default=32)
     parser.add_argument('--lr', type=float, default=0.001)
     parser.add_argument('--lrf', type=float, default=0.01)
 
